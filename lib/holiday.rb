@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
         array = holiday.to_s.split(" ")
         final = []
           array.each do |x|
-            
+            final = x.capitalize!
         
 end
 
